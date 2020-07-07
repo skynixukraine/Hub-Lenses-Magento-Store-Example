@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <!--
+    plugin
+    -->
+    <type name="Magento\Directory\Model\Currency">
+        <plugin name="skynix_roundprices" type="Skynix\RoundPrices\Model\Plugin\Currency" disabled="true" />
+    </type>
+</config>

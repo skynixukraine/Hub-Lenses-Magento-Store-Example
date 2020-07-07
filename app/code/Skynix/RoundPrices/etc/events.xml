@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <!--
+    event salesrule_validator_process
+    -->
+    <event name="salesrule_validator_process">
+        <observer name="skynix_roundprices" instance="Skynix\RoundPrices\Observer\ValidatorObserver"/>
+    </event>
+</config>

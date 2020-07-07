@@ -1,0 +1,9 @@
+{
+    "name": "mageworx/module-currencymeta",
+    "version": "2.1.4",
+    "type": "metapackage",
+    "require": {
+        "mageworx/module-geoip": "2.1.2",
+        "mageworx/module-currencyswitcher": "2.0.5"
+    }
+}
