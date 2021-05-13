@@ -13,7 +13,7 @@
         "ebizmarts/mailchimp-lib": "^3.0",
         "mageworx/module-connectormeta": "^1.3",
         "phoenix/module-cashondelivery": "1.0.1",
-        "cloudflare/cloudflare-magento": "^1.1"
+        "mageplaza/module-google-recaptcha": "^1.2"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.2.0",
@@ -65,7 +65,7 @@
         },
         "mageworx": {
             "type": "artifact",
-            "url": "/home/hublense/mageworx"
+            "url": "/var/www/vhosts/hublenses.com/mageworx"
         }
     },
     "extra": {

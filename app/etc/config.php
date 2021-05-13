@@ -3,7 +3,6 @@ return array (
   'modules' => 
   array (
     'BelVG_Popup' => 1,
-    'CloudFlare_Plugin' => 1,
     'Magento_Store' => 1,
     'Magento_Directory' => 1,
     'Infortis_Infortis' => 1,
@@ -135,6 +134,8 @@ return array (
     'Ebizmarts_MailChimp' => 0,
     'Dotdigitalgroup_Email' => 0,
     'Magento_WishlistAnalytics' => 1,
+    'Mageplaza_Core' => 1,
+    'Mageplaza_GoogleRecaptcha' => 1,
     'Paytabs_Paytabsexpress' => 1,
     'Paytabs_Sadad' => 1,
     'Phoenix_CashOnDelivery' => 1,

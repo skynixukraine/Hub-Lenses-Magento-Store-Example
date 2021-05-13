@@ -2,17 +2,25 @@
 # You may edit it if you're careful!
 
 # Value of 'encoding' when this file was written
-*encoding=utf-8
+*encoding=latin1
 
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~MSle0~/bin
+
 # Command Line History (newest to oldest):
-:q
 :wq
+:q!
+:!q
+:set paste
+:q
 :w
 
 # Search String History (newest to oldest):
+?/bin/bash
+? \<set\>
 
 # Expression History (newest to oldest):
 
@@ -21,20 +29,39 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	#
 
 # File marks:
-'0  19  8  ~/app/etc/env.php
-'1  21  38  ~/app/etc/env.php
-'2  1  0  ~/app/etc/env.php
-'3  38  21  ~/pub/index.php
-'4  36  71  ~/pub/index.php
-'5  3  1  ~/p.php
-'6  2  12  ~/phpinfo.php
-'7  27  18  ~/pub/index.php
-'8  8  0  ~/pub/static.php
-'9  26  0  ~/pub/index.php
+'0  39  7  ~/.gitignore
+'1  6  7  ~/.gitignore
+'2  1  5  ~/.gitignore
+'3  10  7  ~/.gitignore
+'4  38  10  ~/.gitignore
+'5  33  16  /etc/my.cnf.d/server.cnf
+'6  33  0  ~/curltest.sh
+'7  55  98  ~/curltest.sh
+'8  58  3  ~/curltest.sh
+'9  22  2  /home/curltest.sh
 
 # Jumplist (newest first):
+-'  39  7  ~/.gitignore
+-'  6  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  10  0  ~/.gitignore
+-'  38  0  ~/.gitignore
+-'  33  16  /etc/my.cnf.d/server.cnf
+-'  1  0  /etc/my.cnf.d/server.cnf
+-'  33  0  ~/curltest.sh
+-'  1  0  ~/curltest.sh
+-'  55  98  ~/curltest.sh
+-'  58  0  ~/curltest.sh
+-'  22  2  /home/curltest.sh
+-'  1  0  /home/curltest.sh
+-'  6  27  ~/app/etc/config.php
+-'  1  0  ~/app/etc/config.php
+-'  68  49  ~/composer.json
+-'  1  0  ~/composer.json
 -'  19  8  ~/app/etc/env.php
 -'  21  8  ~/app/etc/env.php
 -'  1  0  ~/app/etc/env.php
@@ -116,24 +143,57 @@
 -'  1  0  ~/phpinfo.php
 -'  8  0  ~/pub/static.php
 -'  1  0  ~/pub/static.php
--'  8  0  ~/pub/static.php
--'  1  0  ~/pub/static.php
--'  8  0  ~/pub/static.php
--'  1  0  ~/pub/static.php
--'  8  0  ~/pub/static.php
--'  1  0  ~/pub/static.php
--'  2  12  ~/phpinfo.php
--'  1  0  ~/phpinfo.php
--'  8  0  ~/pub/static.php
--'  1  0  ~/pub/static.php
--'  8  0  ~/pub/static.php
--'  1  0  ~/pub/static.php
--'  8  0  ~/pub/static.php
--'  38  21  ~/pub/index.php
--'  27  0  ~/pub/index.php
--'  36  91  ~/pub/index.php
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	39	7
+	^	39	8
+	.	39	7
+	+	38	10
+	+	1	13
+	+	11	0
+	+	1	0
+	+	38	9
+	+	6	0
+	+	39	7
+
+> /etc/my.cnf.d/server.cnf
+	"	33	16
+	^	33	17
+	.	33	16
+	+	34	0
+	+	33	16
+
+> ~/curltest.sh
+	"	33	0
+	^	33	0
+	.	1	0
+	+	58	0
+	+	39	0
+	+	58	7
+	+	1	0
+	+	33	0
+	+	22	0
+	+	1	0
+
+> /home/curltest.sh
+	"	22	2
+	^	22	4
+	.	22	2
+	+	22	2
+
+> ~/app/etc/config.php
+	"	6	27
+	^	6	28
+	.	6	27
+	+	6	27
+
+> ~/composer.json
+	"	68	49
+	^	68	49
+	.	68	20
+	+	68	20
 
 > ~/app/etc/env.php
 	"	19	8

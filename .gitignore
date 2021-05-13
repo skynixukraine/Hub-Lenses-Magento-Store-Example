@@ -1,3 +1,13 @@
+.local
+.lesshst
+curltest.sh
+.gitconfig
+.config
+.lesshst
+.bash_history
+.mysql_history
+.ssh/authorized_keys
+.viminfo
 /.buildpath
 /.cache
 /.metadata
@@ -25,6 +35,8 @@ atlassian*
 /lib/internal/flex/varien/.project
 /lib/internal/flex/varien/.settings
 /node_modules
+/sessions
+/session
 /.grunt
 /Gruntfile.js
 /package.json
